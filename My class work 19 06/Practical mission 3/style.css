@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+}
+
+.flex-container {
+	color: white;
+}
+
+.Header {
+	background-color: #FFB6C1;
+	height: 80px;
+}
+
+.Sidebar-1 {
+	background-color: #B22222;
+	height: 600px;
+}
+
+.visible-lg {
+	background-color: white; 
+	color: grey;
+	height: 600px;
+}
+
+.visible-md {
+	display: none;
+}
+
+
+
+.Sidebar-2 {
+	background-color: #B22222;
+	height: 600px;
+}
+
+.Footer {
+	background-color: #FFB6C1;
+	height: 80px;
+}
+
+
+@media (max-width: 1200px) {
+	.flex-container {
+	color: white;
+	}
+
+	.Sidebar-1 {
+	background-color: #B22222;
+	height: 100px;
+	}
+	.visible-lg {
+		display: none;
+	}
+	.visible-md {
+	display: block;
+	background-color: white; 
+	color: grey;
+	height: 200px;
+	}
+
+	.Sidebar-2 {
+	background-color: #B22222;
+	height: 100px;
+	}
+
+}

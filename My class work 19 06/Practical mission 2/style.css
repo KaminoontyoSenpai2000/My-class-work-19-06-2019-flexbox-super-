@@ -1,0 +1,105 @@
+body {
+	margin: 0;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: 800px;
+	color: white;
+}
+
+.container {
+	display: flex;
+	height: 600px;
+}
+
+.Header {
+	display: flex;
+	background-color: #FFB6C1;
+	align-items: center;
+	justify-content: center;
+	height: 80px;
+}
+
+.Sidebar-1 {
+	display: flex;
+	background-color: #B22222;
+	flex-grow: 1;
+	justify-content: center;
+}
+
+.Main {
+	display: flex;
+	background-color: white; 
+	flex-grow: 8;
+	justify-content: center;
+	color: grey;
+}
+
+.Sidebar-2 {
+	display: flex;
+	background-color: #B22222;
+	flex-grow: 1;
+	justify-content: center;
+}
+
+.Footer {
+	display: flex;
+	background-color: #FFB6C1;
+	justify-content: center;
+	height: 80px;
+
+}
+
+@media (max-width: 992px) {
+	.flex-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	color: white;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.Header {
+	display: flex;
+	background-color: #FFB6C1;
+	align-items: center;
+	justify-content: center;
+}
+
+.Sidebar-1 {
+	display: flex;
+	background-color: #B22222;
+	flex-grow: 1;
+	justify-content: center;
+}
+
+.Main {
+	display: flex;
+	background-color: white; 
+	flex-grow: 8;
+	justify-content: center;
+	order: -1;
+	color: grey;
+}
+
+.Sidebar-2 {
+	display: flex;
+	background-color: #B22222;
+	flex-grow: 1;
+	justify-content: center;
+}
+
+.Footer {
+	display: flex;
+	background-color: #FFB6C1;
+	justify-content: center;	
+}
+
+}
